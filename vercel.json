@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm --filter @workspace/badrinath-trip run build",
+  "outputDirectory": "artifacts/badrinath-trip/dist",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
